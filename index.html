@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie sua receita</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.yellow-amber.min.css" />
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylr.css">
+</head>
+
+<body>
+
+    <div id="tudo">
+        <div id="title">
+            <h1>Liste os ingredientes da receita</h1>
+        </div>
+        <div id="input">
+            <div class="mdl-textfield mdl-js-textfield" style="width: 500px;">
+                <input id="input1" class="mdl-textfield__input" type="text" id="sample1" style="font-size: 22px;">
+                <label class="mdl-textfield__label" for="sample1" style="font-size: 22px;">Adicione os
+                    ingredientes</label>
+            </div>
+            <button id="add"
+                class="btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                Adicionar
+            </button>
+            <button id="del"
+                class="btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                Deletar Tudo
+            </button>
+        </div>
+
+        <div style="width: 800px;">
+            <ul class="mdl-list" style="font-size: 22px; margin: 10px 0;"></ul>
+        </div>
+        <button id="salvar"
+                class="btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                Salvar
+            </button>
+    </div>
+
+
+    <script type="text/javascript" src="FileSaver.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
